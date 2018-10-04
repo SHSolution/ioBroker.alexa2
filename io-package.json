@@ -1,9 +1,9 @@
 {
     "common": {
-        "name": "alexa2",
-        "version": "1.1.0",
-        "title": "Alexa2 (Amazon Echo)",
-        "desc": "Remote control for Alexa (Amazon Echo)",
+        "name": "alexa2+",
+        "version": "1.1.0.1",
+        "title": "Alexa2 (Amazon Echo) by SHSolutions",
+        "desc": "Remote control for Alexa (Amazon Echo) modified version by SHSolutions",
         "platform": "Javascript/Node.js",
         "news": {
             "1.1.0": {
@@ -84,8 +84,8 @@
         "mode": "daemon",
         "icon": "alexa.png",
         "materialize": true,
-        "extIcon": "https://raw.githubusercontent.com/Apollon77/ioBroker.alexa2/master/admin/alexa.png",
-        "readme": "https://github.com/Apollon77/ioBroker.alexa2/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/SHSolution/ioBroker.alexa2/master/admin/alexa.png",
+        "readme": "https://github.com/SHSolution/ioBroker.alexa2/blob/master/README.md",
         "loglevel": "info",
         "type": "iot-systems",
         "enabled": true,
