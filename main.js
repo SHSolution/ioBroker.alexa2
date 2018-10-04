@@ -519,7 +519,7 @@ function queryAllSmartHomeDevices(initial, callback) {
         if (shApplianceEntityMap[applianceId].readable) {
             if (shQueryBlocker[applianceId]) {
                 blocked.push(applianceId);
-                continue;
+            //    continue;
             }
             reqArr.push(applianceId);
             if (!initial) {
