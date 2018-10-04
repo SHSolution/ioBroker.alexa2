@@ -295,7 +295,7 @@ function processObjectQueue(callback) {
     });
 }
 
-const adapter = utils.Adapter('alexa2');
+const adapter = utils.Adapter('alexa2Plus');
 
 adapter.on('unload', (callback) => {
     callback && callback();
