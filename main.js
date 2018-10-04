@@ -517,10 +517,10 @@ function queryAllSmartHomeDevices(initial, callback) {
     for (let applianceId in shApplianceEntityMap) {
         if (!shApplianceEntityMap.hasOwnProperty(applianceId)) continue;
         if (shApplianceEntityMap[applianceId].readable) {
-            if (shQueryBlocker[applianceId]) {
-                blocked.push(applianceId);
+            //if (shQueryBlocker[applianceId]) {
+            //    blocked.push(applianceId);
             //    continue;
-            }
+            //}
             reqArr.push(applianceId);
             if (!initial) {
                 let delay = 600000;

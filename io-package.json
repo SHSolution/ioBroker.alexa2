@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "alexa2Plus",
-        "version": "1.1.01",
+        "version": "1.1.02",
         "title": "Alexa2Plus (Amazon Echo) by SHSolutions",
         "desc": "Remote control for Alexa (Amazon Echo) modified version by SHSolutions",
         "platform": "Javascript/Node.js",
